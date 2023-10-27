@@ -1,0 +1,55 @@
+.Feedback{
+    text-align: center;
+    font-size: 20px;
+}
+
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #f7f7f7;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-size: 18px;
+    color: #262626;
+  }
+  
+  input,textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+ 
+  input.botao {
+    background: brown;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    transition:0.3s;
+  }
+  
+  input.botao:hover {
+    background: #8B0000;
+  }
+  
+
+  footer {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+  }
+  

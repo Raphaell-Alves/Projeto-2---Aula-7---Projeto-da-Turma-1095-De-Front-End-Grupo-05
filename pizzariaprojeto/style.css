@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+.header-menu{
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 2px 5px grey;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 20px;
+}
+
+.logo span {
+    color: brown;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    margin-right: 20px;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:last-child {
+    background: brown;
+    color: white;
+    border-radius: 8px;
+    padding: 10px 20px;
+}
+
+.main-pizza {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-size: 50% 90%;
+    padding: 30px;
+}
+
+.texto {
+    max-width: 50%;
+}
+
+.texto h2 {
+    font-size: 2.5em;
+    color: #262626;
+}
+
+.texto p {
+    color: #262626;
+    margin: 20px 0;
+}
+
+.order-button {
+    text-decoration: none;
+    color: white;
+    background: brown;
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.pizzas {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+.pizza-item {
+    text-align: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.pizza-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.pizza-item h3 {
+    font-size: 1.5em;
+    color: #262626;
+    margin: 10px 0;
+}
+
+.pizza-item p {
+    color: #777;
+}
+
+.buy-button {
+    text-decoration: none;
+    color: white;
+    background: brown;
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+.buy-button:hover {
+    background: #8B0000;
+}
+
+footer {
+    text-align: center;
+    color: black;
+    padding: 20px;
+    font-size: 20px;
+}
+
+.tabela {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.tabela table {
+    width: 100%; 
+}
+
+.tabela caption {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tabela th, .tabela td {
+    padding: 15px;
+    border: 1px solid black;
+}
+
+
+.header-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px;
+      align-items: center;
+    justify-content: center;
+    text-align: center;
+    }
+  }
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
